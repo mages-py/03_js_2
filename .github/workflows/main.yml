@@ -28,6 +28,3 @@ jobs:
 
       - name: Lint code with ESLint
         run: npx eslint .
-
-      - name: Build (if needed)
-        run: npm run build

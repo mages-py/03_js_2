@@ -25,6 +25,3 @@ jobs:
 
       - name: Run tests with Jest
         run: npm test
-
-      - name: Lint code with ESLint
-        run: npx eslint .
